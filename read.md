@@ -66,4 +66,8 @@ PS: a partir de cette exercices j'ai mieux compris la cardinalité. Le liens de 
 
    Pas de difficulté rencontrée. Règle du OneToMany : La clé primaire de l'entité côté N devient clé étrangère dans l'entité côté 1.
 
+   J'ai ajouter une date adoption dans ma table Adoption.
+
+   J'ai essayer de traduire a max en anglais, mais je suis pas sur pour vaccin et dateAdoption.
+
    ![image](SPA-MLD.png)
