@@ -53,3 +53,17 @@ CREATE TABLE etagere (
 ```
 
 PS: a partir de cette exercices j'ai mieux compris la cardinalité. Le liens de potion et de ingrediens sont tout deux (0,N) : la potion est utilisé a l'ingrédients 0 a N de fois et les ingrédients sont utilisé 0 a N de fois.
+
+**Modélisation de base de données with dogs**
+
+1. MCD
+
+   Difficulté rencontrée : les règles de gestion ont été compliquées surtout entre la race et l'espèce (Loïc m'a aidé). Trouver le verbe fait toutes les règles de gestion et c'était beaucoup de débats avec mon moi intérieur.
+
+   ![image](SPA-MCD.png)
+
+2. MLD
+
+   Pas de difficulté rencontrée. Règle du OneToMany : La clé primaire de l'entité côté N devient clé étrangère dans l'entité côté 1.
+
+   ![image](SPA-MLD.png)
